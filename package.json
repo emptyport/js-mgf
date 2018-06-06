@@ -1,0 +1,34 @@
+{
+  "name": "js-mgf",
+  "version": "1.0.0",
+  "description": "A general purpose module for parsing mgf files",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test-index.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emptyport/js-mgf.git"
+  },
+  "keywords": [
+    "peptide",
+    "protein",
+    "chemistry",
+    "proteomics"
+  ],
+  "author": "Michael Porter <michaelporter.chemistry@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emptyport/js-mgf/issues"
+  },
+  "homepage": "https://github.com/emptyport/js-mgf#readme",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.9.0"
+  },
+  "dependencies": {},
+  "directories": {
+    "test": "test"
+  }
+}
