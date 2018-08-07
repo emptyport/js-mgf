@@ -48,8 +48,8 @@ module.exports.parse = function(fileText) {
     }
 
     if(line.match(/^\d/)) {
-      var mz = parseFloat(line.split(" ")[0]);
-      var intensity = parseFloat(line.split(" ")[1]);
+      var mz = parseFloat(line.split(/[ \t]+/)[0]);
+      var intensity = parseFloat(line.split(/[ \t]+/)[1]);
       mzArray.push(mz);
       intensityArray.push(intensity);
     }
